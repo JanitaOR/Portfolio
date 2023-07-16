@@ -9,6 +9,7 @@
 
     --border-radius-headline: 2rem 2rem 0rem 0rem;
     --border-radius-project: 2rem;
+    --border:2px solid #0e1c21;
 
 }
 
@@ -20,7 +21,9 @@ button {
   padding: 0.5rem;
   margin: 1rem;
 }
-
+p {
+    margin: 2rem;
+}
 
 .tools {
     margin: 0.5rem;
@@ -35,11 +38,13 @@ button {
     justify-content: space-between;
     padding: 0.5rem 1rem;
    
+   
 }
 .project {
     margin: 5rem 10rem;
     border-radius: var(--border-radius-project); 
     background-color: #a1d3e5;
+    border: var(--border);
 }
 
 .allThePets {
